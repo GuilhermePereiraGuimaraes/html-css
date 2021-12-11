@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Candy';
+    src: url(fontes/Smile\ Candy.otf) format('opentype'), url(fontes/Smile\ Candy.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100%;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom,#bad7f2,#BAF2E9);
+}
+main{
+    width: 650px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #899eb3;
+}
+h1{
+    text-align: left;
+    color: #7E6551;
+}
+#titulo-especial{
+    text-align: center;
+    font: bold 3em 'Candy', sans-serif;
+    text-shadow: 1px 1px 2px #574638;
+}
+h2{
+    color: #466362;
+}
+p{
+    text-align: justify;
+}
+.texto{
+    color: #FFCB47;
+    text-shadow: 1px 1px 1px #c09935;
+}

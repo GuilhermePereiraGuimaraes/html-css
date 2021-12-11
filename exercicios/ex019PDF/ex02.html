@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes e Pseudo-elementos</title>
+    <style>
+        #botao-especial{
+            font-size: 1.5em;
+            text-align: center;
+            text-decoration: none;
+            width: 200px;
+            height: 100px;
+            border-radius: 20px;
+            background-color: lightcoral;
+            border-style: solid;
+            border-color: greenyellow;
+            box-shadow: 2px 2px 2px rgb(165, 88, 88);
+        }
+        #link-especial{
+            position: relative;
+            top: 30px;
+        }
+        body{
+            font: normal 1em Arial, Helvetica, sans-serif;
+        }
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+        a:visited{
+            color: blue;
+        }
+        a:hover{
+            color: darkred;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+        .especial:hover{
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+        .especial::before{
+            content: '>>';
+            font-weight: lighter;
+        }
+        .especial::after{
+            content: '<<';
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+    <p>Para aprender HTML5 e CSS3, acesse o 
+        <a href="https://github.com/" target="_blank">
+            meu Github
+        </a>
+    </p>
+    <p>Para conhecer mais de Web Development
+        <a href="https://www.w3c.br/" target="_blank">
+            Acesse o site do W3E no Brasil
+        </a>
+    </p>
+    <p>E se você quiser aprender mais de tecnologia
+        <a href="https://www.cursoemvideo.com/" target="_blank" class="especial">
+            acesse ao Curso em Vídeos.
+        </a>
+    </p>
+    <div id="botao-especial">
+        <a href="site-teste.html" id="link-especial">Vá para o site teste</a>
+    </div>
+</body>
+</html>

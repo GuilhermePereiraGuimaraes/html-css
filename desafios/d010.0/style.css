@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300;400;500&display=swap');
+@font-face {
+    font-family: "Droid";
+    src: url(fontes/idroid.otf) format("opentype");
+}
+@media screen and (max-width: 720px){
+    html { font-size: 12px;}
+}
+
+:root{
+    --cor-1: #C7FBAD;
+    --cor-2: #7BFA3C;
+    --cor-3: #62C730;
+    --cor-4: #3C7A1D;
+    --cor-5: #355325;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor-3)30%,var(--cor-5));
+    margin: auto;
+    height: 200px;
+    padding: 15px 10px 0px 10px;
+    width: 100%;
+}
+header>nav{
+    margin: -30px 0px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+}
+header>h1{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font: 500 2.3em 'Mohave', sans-serif;
+}
+header>p{
+    text-align: center;
+    margin: 30px;
+    font-size: 1.2em;
+    color: white;
+}
+body{
+    background-color: var(--cor-1);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.formatacao-h1{
+    font: normal 2em 'Droid',sans-serif;
+    color: var(--cor-5);
+}
+h2{
+    font: normal 1.5em 'Droid',sans-serif;
+    color: var(--cor-5);
+    background-image: linear-gradient(to right, var(--cor-1), white);
+}
+p{
+    text-indent: 10px;
+    text-align: justify;
+}
+.link-esp{
+    text-decoration: none;
+    color: inherit;
+}
+.link-esp:hover{
+
+    color: var(--cor-5);
+}
+span{
+    color: var(--cor-4);
+    font-weight: bold;
+}
+main{
+    width: 810px;
+    padding: 20px;
+    background-color: white;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 5px #0000009d;
+}
+.img-center{
+    text-align: center;
+}
+iframe{
+    outline: 30px solid var(--cor-5);
+    border-right: 40px solid var(--cor-5);
+    border-left: 40px solid var(--cor-5);
+}
+div#mural-especial{
+    width: 790px;
+    padding: 0px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: #b5e49d;
+    box-shadow: 3px 3px 3px #0000008e;
+}
+div#mural-especial>h1{
+    color: white;
+    width: 790px;
+    border-radius: 5px;
+    background-color: var(--cor-3);
+    outline: 10px solid var(--cor-3);
+    box-shadow: 10px 0px 3px #0000008e;
+}
+footer{
+    margin: auto;
+    background-color: var(--cor-5);
+    color: white;
+    padding-bottom: 1px;
+    display: block;
+}
+footer>p{
+    text-align: center;
+}
+.span-cor{
+    color: white;
+}
+ul{
+    display: inline-block;
+    list-style: none;
+}
+li::before{
+    content: "✔";
+    color: black;
+    font-weight: bold;
+}
+ul#segundo-ul{
+    position: absolute;
+    right: 600px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: gray;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    color: var(--cor-1);
+}
+.nav-link:active{
+    color: var(--cor-3);
+}

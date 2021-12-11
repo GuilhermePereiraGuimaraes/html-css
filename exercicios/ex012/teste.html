@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <h1>Teste</h1>
+    <h2>Imagens</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="foto-m.png" type="image/png"> 
+        <img src="foto-g.jpg" alt="testando">
+    </picture>
+
+    <h2>Áudio</h2>
+    <audio src="midia/DaPacemDomine.mp3" preload="auto" controls autoplay loop>
+        <source src="midia/DaPacemDomine.mp3" type="audio/mpeg">
+        <source src="midia/DaPacemDomine.ogg" type="audio/ogg">
+        <source src="midia/DaPacemDomine.wav" type="audio/wav">  
+        <p>Seu navegador não pega mp3 ? <a href="midia/DaPacemDomine.mp3" download="DaPacemDomine.mp3" type="audio/mpeg">Então baixe aqui!</a></p> 
+    </audio>
+   
+    <h2>Video</h2>
+    <video src="Aquinas101.webm" preload="auto" width="600" poster="thumb.jpg" controls autoplay>
+        <source src="Aquinas101.webm" type="video/webm"> 
+        <source src="Aquinas101.mp4" type="video/mp4">
+        <source src="Aquinas101.ogv" type="video/ogg">
+        <source src="Aquinas101.ogg" type="video/ogg">
+        <p>Infelizmente não foi possivel carregar o video nesse navegador</p>
+    </video>
+    
+    <iframe width="800" height="500" src="https://www.youtube.com/embed/e1JjkZzs_s0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
