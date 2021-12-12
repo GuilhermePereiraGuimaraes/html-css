@@ -1,6 +1,6 @@
 # Bem-vindo a minha pasta de exercicios
 
-[Exercicio 1](https://guilhermepereiraguimaraes.github.io/html-css/exercicios/ex001/index.html)
+[Exercicio 1](https://guilhermepereiraguimaraes.github.io/html-css/exercicios/ex001/index.html) mds cara
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
