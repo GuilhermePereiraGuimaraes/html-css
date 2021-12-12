@@ -1,6 +1,6 @@
-## Bem-vindo a minha pasta de exercicios
+# Bem-vindo a minha pasta de exercicios
 
-<a href="https://guilhermepereiraguimaraes.github.io/html-css/exercicios/ex001/index.html" target='_blank'>Executar o exercício 01</a>
+[Exercicio 1](https://guilhermepereiraguimaraes.github.io/html-css/exercicios/ex001/index.html)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
