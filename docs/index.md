@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## Bem-vindo a minha pasta de exercicios
 
-You can use the [editor on GitHub](https://github.com/GuilhermePereiraGuimaraes/html-css/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<a href="https://guilhermepereiraguimaraes.github.io/html-css/exercicios/ex001/index.html" target='_blank'>Executar o exercício 01</a>
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
 
 ### Markdown
 
