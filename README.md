@@ -5,4 +5,4 @@
 
  Pasta de exercícios e projetos do Curso em Vídeo ministrado pelo Gustavo Guanabara
 
-<a href="https://guilhermepereiraguimaraes.github.io/html-css/exercicios/ex001/index.html">Executar o exercício 01</a>
+ <a href="https://guilhermepereiraguimaraes.github.io/html-css/exercicios/ex001/index.html">Executar o exercício 01</a>
