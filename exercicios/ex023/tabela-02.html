@@ -7,11 +7,42 @@
     <title>Tabelas</title>
     <style>
         @keyframes fonte{
-            0%{color: blue;}
-            25%{color: red;}
-            50%{color: yellow;}
-            75%{color: green;}
-            100%{color: purple;}
+            0%{
+                background-image: linear-gradient(to right,blue, red, yellow, green, purple);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+            20%{
+                background-image: linear-gradient(to right, purple,blue, red, yellow, green);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+            40%{
+                background-image: linear-gradient(to right,green,purple,blue, red, yellow);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+            60%{
+                background-image: linear-gradient(to right,yellow,green,purple,blue, red);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+            80%{
+                background-image: linear-gradient(to right,red,yellow,green,purple,blue);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+            100%{
+                background-image: linear-gradient(to right,blue, red, yellow, green, purple);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+            }
         }
         body{
             font-family: Arial, Helvetica, sans-serif;
@@ -24,8 +55,8 @@
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
-            background-color: lightgray;
-            animation: fonte 4s ease-in-out infinite alternate;    
+            background-color: #d3d3d3;
+            animation: fonte 2s linear infinite alternate-reverse;    
         }
         th,td{
             border: 1px solid black;
@@ -39,6 +70,10 @@
         }
         td.num{
             text-align: right;
+        }
+        tbody>tr:nth-child(2n){
+            background-color: lightcyan;
+            font-weight: bold;
         }
     </style>
 </head>
